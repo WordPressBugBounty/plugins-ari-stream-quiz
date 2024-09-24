@@ -1,0 +1,1017 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ARI Stream Quiz\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-08-25 12:17+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dominik J. <dominik.jandy@af.agency>, 2016\n"
+"Language-Team: Polski (Polska)\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ari-stream-quiz.php:38
+#, php-format
+msgid "update PHP version on your server from v. %s to at least v. %s"
+msgstr "Uaktualnij wersję PHP na serwerze z v.%s do co najmniej v.%s"
+
+#: ari-stream-quiz.php:44
+msgid "install PHP SPL extension"
+msgstr "Zainstaluj rozszerzenie PHP SPL"
+
+#: ari-stream-quiz.php:48
+#, php-format
+msgid "update WordPress v. %s to at least v. %s"
+msgstr "Uaktualnij WordPress v.%s do co najmniej v.%s"
+
+#: ari-stream-quiz.php:55
+#, php-format
+msgid ""
+"\"ARI Stream Quiz\" can not be activated. It requires PHP version 5.4.0+ "
+"with SPL extension and WordPress 4.0+.<br /><br /><b>Recommendations:</b> %s."
+"<br /><br /><a href=\"%s\" class=\"button button-primary\">Back</a>"
+msgstr ""
+"\"ARI Stream Quiz\" nie można aktywować. Wymagana jest wersja PHP 5.4.0 z "
+"rozszerzeniem SPL i WordPress 4.0 . <br /><br /> <b>Rekomendacje:</b> %s. "
+"<br /><br /> <a href=\"%s\" class=\"button button-primary\">Wróć</a>"
+
+#: includes/class-plugin.php:119 includes/class-plugin.php:120
+msgid "ARI Stream Quiz"
+msgstr "Quizy"
+
+#: includes/class-plugin.php:129 includes/class-plugin.php:130
+#: includes/views/quizzes/class-html.php:10
+msgid "Quizzes"
+msgstr "Quizy"
+
+#: includes/class-plugin.php:138 includes/class-plugin.php:139
+#: includes/views/quiz/tmpl/quiz-trivia.php:6
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/class-plugin.php:204
+msgid "Are you sure?"
+msgstr "Jesteś pewien?"
+
+#: includes/class-plugin.php:222
+msgid "Please specify a quiz ID"
+msgstr "Proszę określić ID quizu"
+
+#: includes/class-plugin.php:274 includes/views/quiz/tmpl/default.php:16
+msgid "Edit Quiz"
+msgstr "Edytuj quiz"
+
+#: includes/class-plugin.php:274 includes/views/quiz/tmpl/default.php:16
+msgid "Add New Quiz"
+msgstr "Dodaj nowy quiz"
+
+#: includes/controllers/quiz/class-add.php:20
+msgid "The selected quiz type is not supported."
+msgstr "Wybrany typ quizu nie jest obsługiwany."
+
+#: includes/controllers/quiz/class-save.php:48
+msgid ""
+"The quiz is not saved. Probably data are corrupted or a database connection "
+"is broken."
+msgstr ""
+"Quiz nie został zapisany. Prawdopodobnie dane są niepoprawne lub połączenie "
+"z bazą danych zostało utracone."
+
+#: includes/controllers/quiz/class-save.php:61
+msgid "The quiz is saved successfully"
+msgstr "Quiz został zapisany pomyślnie"
+
+#: includes/controllers/quizzes/class-bulk-copy.php:31
+msgid "Copies of the quizzes created successfully"
+msgstr "Kopie quizów zostały utworzone z powodzeniem"
+
+#: includes/controllers/quizzes/class-bulk-copy.php:45
+msgid "Copies of the quizzes are not created"
+msgstr "Kopie quizów nie są utworzone"
+
+#: includes/controllers/quizzes/class-bulk-delete.php:31
+msgid "The quizzes deleted successfully"
+msgstr "Quizy zostały pomyślnie usunięte"
+
+#: includes/controllers/quizzes/class-bulk-delete.php:45
+msgid "The quizzes can not be deleted"
+msgstr "Nie można usunąć quizów"
+
+#: includes/controllers/quizzes/class-copy.php:29
+msgid "Copy of the quiz created successfully"
+msgstr "Kopia quizu została utworzona pomyślnie"
+
+#: includes/controllers/quizzes/class-copy.php:43
+msgid "A copy of the quiz is not created"
+msgstr "Kopia quizu nie jest utworzona"
+
+#: includes/controllers/quizzes/class-delete.php:29
+msgid "The quiz deleted successfully"
+msgstr "Quiz został pomyślnie usunięty"
+
+#: includes/controllers/quizzes/class-delete.php:43
+msgid "The quiz can not be deleted"
+msgstr "Nie można usunąć quizu"
+
+#: includes/controllers/quizzes/class-preview.php:27
+msgid "Preview is not available for the selected quiz"
+msgstr "Podgląd nie jest dostępny dla wybranego quizu"
+
+#: includes/helpers/class-helper.php:84
+msgid "Trivia"
+msgstr "Trivia"
+
+#: includes/helpers/class-quizzes-screen.php:7
+msgid "Number of items per page"
+msgstr "Liczba elementów na stronę"
+
+#: includes/helpers/class-quizzes-screen.php:19
+msgid "Help"
+msgstr "Pomoc"
+
+#: includes/helpers/class-quizzes-screen.php:21
+#, php-format
+msgid "User guide is available <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+"Podręcznik użytkownika jest dostępny <a href=\"%s\" target=\"_blank\">tutaj</"
+"a> ."
+
+#: includes/helpers/class-settings.php:140
+msgid "Hide title"
+msgstr "Ukryj tytuł"
+
+#: includes/helpers/class-settings.php:142
+msgid ""
+"If the parameter is enabled, title of the quizzes which are embedded via "
+"shortcode will be hidden. Can be changed directly into shortcode via "
+"hide_title shortcode parameter."
+msgstr ""
+"Jeśli parametr jest włączony, tytuły quizów które są osadzone za pomocą "
+"shorcode zostaną ukryte. Można zmienić ustawienie bezpośrednio w shortcode "
+"za pomocą parametru shortcode hide_title."
+
+#: includes/helpers/class-settings.php:152
+msgid "Image answers per row"
+msgstr "Odpowiedzi graficznych w wierszu"
+
+#: includes/helpers/class-settings.php:154
+msgid ""
+"It is used to specify how many image-based answers will be shown per row. "
+"Can be changed directly into shortcode via col shortcode parameter."
+msgstr ""
+"Jest używany do określania, ile odpowiedzi graficznych będzie wyświetlane w "
+"wierszu. Ustawienie można zmienić bezpośrednio przez parametry shortcode."
+
+#: includes/helpers/class-settings.php:164
+msgid "Default theme"
+msgstr "Temat domyślny"
+
+#: includes/helpers/class-settings.php:166
+msgid ""
+"The selected theme will be used for all quizzes by default if it is not "
+"overridden in quiz settings."
+msgstr ""
+"Wybrany motyw będzie używany domyślnie dla wszystkich quizów, jeśli nie "
+"zostanie on zastąpiony ustawieniami quizu."
+
+#: includes/helpers/class-settings.php:176
+msgid "Smart scroll"
+msgstr "Sprytne przewijanie"
+
+#: includes/helpers/class-settings.php:178
+msgid ""
+"If the parameter is enabled, the extension will automatically scroll to next "
+"element (question, quiz result and etc.) during quiz session."
+msgstr ""
+"Jeśli parametr jest włączony, rozszerzenie automatycznie przewinie do "
+"następnego elementu (pytanie, wynik quizu i inne) podczas sesji quizu."
+
+#: includes/helpers/class-settings.php:188
+msgid "Scroll duration"
+msgstr "Czas przewijania"
+
+#: includes/helpers/class-settings.php:190
+msgid "The duration in milliseconds of scrolling animation."
+msgstr "Czas trwania animacji przewijania w milisekundach."
+
+#: includes/helpers/class-settings.php:200
+msgid "Scroll offset"
+msgstr "Przesunięcie przewijania"
+
+#: includes/helpers/class-settings.php:202
+msgid ""
+"The defined offset in pixels will be added to final top position, useful if "
+"template contains fixed elements. Possible to use negative values."
+msgstr ""
+"Zdefioniowane przesunięcie w pikselach zostanie dodane do końcowej górnej "
+"pozycji, przydatne, jeśli szablon zawiera stałe elementy. Możliwe użycie  "
+"wartości ujemnych."
+
+#: includes/helpers/class-settings.php:212
+msgid "Show questions at the end"
+msgstr "Pokaż pytania na końcu"
+
+#: includes/helpers/class-settings.php:214
+msgid ""
+"If it is enabled, all questions will be shown on quiz final page otherwise "
+"questions will be hidden."
+msgstr ""
+"Jeśli ta opcja jest włączona, wszystkie pytania będą wyświetlane na "
+"ostatniej stronie quizu, w przeciwnym razie pytania będą ukryte."
+
+#: includes/helpers/class-settings.php:224
+msgid "Warning on exit"
+msgstr "Ostrzegaj przy wyjściu"
+
+#: includes/helpers/class-settings.php:226
+msgid "Warning message will be shown if a user leaves non-completed quiz."
+msgstr ""
+"Komunikat ostrzegawczy zostanie wyświetlony, jeśli użytkownik opuści nie "
+"zakończony quiz."
+
+#: includes/helpers/class-settings.php:237
+msgid "Show result per question"
+msgstr "Pokaż wynik po pytaniu"
+
+#: includes/helpers/class-settings.php:239
+msgid "Specify should quiz takers see correct answers or not."
+msgstr ""
+"Określ, czy osoby rozwiązujące quiz otrzymają poprawne odpowiedzi, czy nie."
+
+#: includes/helpers/class-settings.php:249
+msgid "Lockout single answers"
+msgstr "Blokuj pojedyncze odpowiedzi"
+
+#: includes/helpers/class-settings.php:251
+msgid ""
+"If the parameter is activated, answers will be disabled when a user selected "
+"an answer otherwise users can change their answers."
+msgstr ""
+"Jeśli parametr jest aktywny, odpowiedzi będą zablokowane, gdy użytkownik "
+"zaznaczy odpowiedź, w przeciwnym razie użytkownicy mogą zmieniać swoje "
+"odpowiedzi."
+
+#: includes/helpers/class-settings.php:262
+#: includes/helpers/class-settings.php:275
+msgid "API key"
+msgstr "Klucz API"
+
+#: includes/helpers/class-settings.php:264
+msgid ""
+"API key is required for integration with MailChimp service. Login to your "
+"MailChimp account, generate API key, copy it and populate the parameter with "
+"it."
+msgstr ""
+"Klucz API jest wymagany do integracji z usługą MailChimp. Zaloguj się do "
+"konta MailChimp wygeneruj klucz API, skopiuj go i wypełnij parametr nim."
+
+#: includes/helpers/class-settings.php:277
+msgid ""
+"API key is required for integration with MailerLite service. Login to your "
+"MailerLite account, generate API key, copy it and populate the parameter "
+"with it."
+msgstr ""
+"Klucz API jest wymagany do integracji z usługą MailerLite. Zaloguj się do "
+"konta MailerLite wygeneruj klucz API, skopiuj go i wypełnij parametr nim."
+
+#: includes/helpers/class-settings.php:288
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: includes/helpers/class-settings.php:290
+msgid ""
+"App ID is required to use \"Facebook\" share button. If App ID is not "
+"defined, it will not be possible to specify title, description and image for "
+"sharing content."
+msgstr ""
+"ID aplikacji jest wymagane, aby użyć przycisku udostępniania \"Facebook\". "
+"Jeśli nie zdefiniowano ID aplikacji, nie będzie można określić tytułu, opisu "
+"i obrazu dla udostępnianej zawartości."
+
+#: includes/helpers/class-settings.php:300
+msgid "Share buttons"
+msgstr "Przyciski udostępniania"
+
+#: includes/helpers/class-settings.php:302
+msgid "The selected share buttons will be shown on quiz final page."
+msgstr "Wybrane przyciski zostaną wyświetlone na stronie końcowej quizu."
+
+#: includes/helpers/class-settings.php:320
+msgid "Title on result page"
+msgstr "Tytuł na stronie wynikowej"
+
+#: includes/helpers/class-settings.php:328
+msgid "Title of Facebook post"
+msgstr "Tytuł postu Facebook"
+
+#: includes/helpers/class-settings.php:336
+msgid "Content of Facebook post"
+msgstr "Treść postu Facebook"
+
+#: includes/helpers/class-settings.php:344
+msgid "Content of Twitter post"
+msgstr "Treść postu Twittera"
+
+#: includes/helpers/class-settings.php:352
+msgid "Mail subject"
+msgstr "Temat wiadomości"
+
+#: includes/helpers/class-settings.php:360
+msgid "Mail body"
+msgstr "Treść maila"
+
+#: includes/helpers/class-settings.php:370
+msgid "Clean uninstall"
+msgstr "Oczyść deinstalację"
+
+#: includes/helpers/class-settings.php:372
+msgid ""
+"If the parameter is enabled, plugin's settings and data will be removed when "
+"the plugin is uninstalled. Don't enable this option if want to upgrade the "
+"plugin and keep quizzes."
+msgstr ""
+"Jeśli parametr jest włączony, ustawienia wtyczki i dane zostaną usunięte po "
+"odinstalowaniu wtyczki. Nie włączqj tej opcji, jeśli chcesz uaktualnić "
+"wtyczkę i zachować quizy."
+
+#: includes/helpers/class-settings.php:382
+msgid "Disable script optimization"
+msgstr "Wyłącz optymalizację skryptu"
+
+#: includes/helpers/class-settings.php:384
+msgid ""
+"If the parameter is enabled, the plugin will try to avoid optimization of "
+"script loading by 3rd party plugins."
+msgstr ""
+"Jeśli parametr jest włączony, plugin będzie starał się uniknąć optymalizacji "
+"skryptu ładowania przez 3 częściowe pluginy."
+
+#: includes/helpers/class-settings.php:394
+msgid "Load Facebook SDK"
+msgstr "Załaduj Facebook SDK"
+
+#: includes/helpers/class-settings.php:396
+msgid ""
+"If template or another plugin also loads Facebook JS SDK, it is possible to "
+"disabled SDK loading by the plugin to avoid conflicts."
+msgstr ""
+"Jeśli szablon lub inny plugin również ładuje SDK JS Facebooka, jest możliwe "
+"zablokowanie ładowania SDK przez plugin aby uniknąć konfliktów."
+
+#: includes/helpers/class-settings.php:406
+msgid "Add meta tags"
+msgstr "Dodaj znaczniki meta"
+
+#: includes/helpers/class-settings.php:408
+msgid ""
+"If the parameter is enabled, the plugin will add Open Graph and Twitter meta "
+"tags for current quiz."
+msgstr ""
+"Jeśli parametr jest włączony, wtyczka będzie dodawać meta tagi Open Graph i "
+"Twitter dla bieżącego quizu."
+
+#: includes/helpers/class-settings.php:418
+msgid "Images lazy loading"
+msgstr "Powolne ładowanie grafik"
+
+#: includes/helpers/class-settings.php:420
+msgid ""
+"If the parameter is enabled, images in questions and answers will be loaded "
+"only when quiz is started (if \"Start quiz\" button is used) to increase "
+"page speed and a loading icon will be shown until images are loaded."
+msgstr ""
+"Jeśli parametr jest włączony, obrazy w pytaniach i odpowiedziach zostaną "
+"załadowane tylko wtedy, gdy quiz zostanie uruchomiony (jeśli zostanie "
+"przycisk \"Start quiz\") aby zwiększyć szybkość strony i bedzie widoczna się "
+"ikona ładowania, dopóki obrazy będą ładowane."
+
+#: includes/helpers/class-settings.php:430
+msgid "Custom CSS styles"
+msgstr "Dostosuj style CSS"
+
+#: includes/helpers/class-settings.php:432
+msgid ""
+"The defined CSS rules will be added on frontend pages with quizzes. Can be "
+"used to resolve style conflicts or for customization."
+msgstr ""
+"Zdefiniowane reguły CSS zostaną dodane na stronach z quizami. Mogą być "
+"używane do rozwiązywania konfliktów w stylach lub do dostosowywania wyglądu."
+
+#: includes/helpers/class-settings.php:486
+msgid "Contains global parameters for configuration quizzes look'n'feel."
+msgstr ""
+"Zawiera globalne parametry dla quizów konfiguracyjnych \"spocznij i czuwaj\""
+
+#: includes/helpers/class-settings.php:490
+msgid "Configure shortcode parameters"
+msgstr "Konfiguruj parametry shortcode"
+
+#: includes/helpers/class-settings.php:494
+msgid "The parameters are used for integration with MailChimp service"
+msgstr "Parametry są używane do integracji z usługą MailChimp"
+
+#: includes/helpers/class-settings.php:498
+msgid "The parameters are used for integration with MailerLite service"
+msgstr "Parametry są używane do integracji z usługą MailerLite"
+
+#: includes/helpers/class-settings.php:502
+msgid "Contains parameters for configuration share buttons"
+msgstr "Zawiera parametry dla konfiguracji przycisków udostępniania"
+
+#: includes/helpers/class-settings.php:506
+msgid ""
+"This parameters section is used to configure content for quiz final page."
+msgstr "Ta sekcja parametrów służy do konfigurowania zawartości strony quiz."
+
+#: includes/helpers/class-settings.php:512
+msgid ""
+"The following predefined variables are supported: <ul><li><b>{{userScore}}</"
+"b> contains number of correctly answered questions</"
+"li><li><b>{{userScorePercent}}</b> contains number of correctly answered "
+"questions in percent</li><li><b>{{maxScore}}</b> contains number of "
+"questions</li><li><b>{{title}}</b> contains title of result template</"
+"li><li><b>{{content}}</b> contains content of result template</"
+"li><li><b>{{quiz}}</b> contains quiz name</li><li><b>{{url}}</b> contains "
+"page URL</li></ul>"
+msgstr ""
+"Obsługiwane są następujące wstępnie zdefiniowane zmienne:"
+"<ul><li><b>{{userScore}}</b> zawiera liczbę odpowiedzi prawidłowych</"
+"li><li><b>{{userScorePercent}}</b> zawiera liczbę odpowiedzi prawidłowych w "
+"procentach</li><li><b>{{maxScore}}</b> zawiera kliczbę pytań</"
+"li><li><b>{{title}}</b> zawiera tytuł szablonu wyników</li><li><b>{{content}}"
+"</b> zawiera treść szablonu wyników</li><li><b>{{quiz}}</b> zawiera nazwę "
+"quizu</li><li><b>{{url}}</b> zawiera adres URL strony</li></ul>"
+
+#: includes/helpers/class-settings.php:517
+msgid "This section contains advanced parameters for fine tuning of the plugin"
+msgstr ""
+"Ta sekcja zawiera zaawansowane parametry umożliwiające dokładne dostrojenie "
+"wtyczki"
+
+#: includes/helpers/class-settings.php:569
+msgid "pixels"
+msgstr "pikseli"
+
+#: includes/helpers/class-settings.php:580
+msgid "milliseconds"
+msgstr "milisekundy"
+
+#: includes/helpers/class-settings.php:633 includes/views/class-base.php:32
+msgid "No"
+msgstr "Nie"
+
+#: includes/helpers/class-settings.php:635
+msgid "Immediately after user answer"
+msgstr "Natychmiast po odpowiedzi użytkownika"
+
+#: includes/helpers/class-settings.php:637
+msgid "When quiz is completed"
+msgstr "Po zakończeniu quizu"
+
+#: includes/helpers/class-settings.php:661
+msgid "Where get API key?"
+msgstr "Gdzie uzyskać klucz API?"
+
+#: includes/helpers/class-settings.php:672
+msgid "Get API key"
+msgstr "Pobierz klucz API"
+
+#: includes/helpers/class-settings.php:692
+#: includes/views/quiz-session/tmpl/default.php:219
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/helpers/class-settings.php:693
+#: includes/views/quiz-session/tmpl/default.php:235
+msgid "Twitter"
+msgstr "Tiwtter"
+
+#: includes/helpers/class-settings.php:694
+#: includes/views/quiz-session/tmpl/default.php:252
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/helpers/class-settings.php:695
+#: includes/views/quiz-session/tmpl/default.php:264
+msgid "Email"
+msgstr "Email"
+
+#: includes/views/class-base.php:30
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/views/class-base.php:34
+msgid "OK"
+msgstr "OK"
+
+#: includes/views/class-base.php:36
+msgid "Close"
+msgstr "Zamknij"
+
+#: includes/views/quiz-session/class-html.php:56
+msgid "Correct"
+msgstr "Poprawnie"
+
+#: includes/views/quiz-session/class-html.php:58
+msgid "Wrong"
+msgstr "Błędnie"
+
+#: includes/views/quiz-session/class-html.php:63
+msgid "The quiz is not completed, do you want to leave the page?"
+msgstr "Quiz nie jest zakończony, czy chcesz opuścić stronę?"
+
+#: includes/views/quiz-session/tmpl/default.php:48
+msgid "Start quiz"
+msgstr "Rozpocznij quiz"
+
+#: includes/views/quiz-session/tmpl/default.php:156
+msgid "Complete the form below to see results"
+msgstr "Wypełnij poniższy formularz, aby zobaczyć wyniki"
+
+#: includes/views/quiz-session/tmpl/default.php:162
+msgid "Your name"
+msgstr "Twoja imię"
+
+#: includes/views/quiz-session/tmpl/default.php:163
+msgid "Enter your name"
+msgstr "Podaj swoje imie"
+
+#: includes/views/quiz-session/tmpl/default.php:172
+msgid "Your e-mail"
+msgstr "Twój e-mail"
+
+#: includes/views/quiz-session/tmpl/default.php:173
+msgid "Enter your e-mail"
+msgstr "Podaj swój e-mail"
+
+#: includes/views/quiz-session/tmpl/default.php:173
+msgid "Enter your email"
+msgstr "Podaj email"
+
+#: includes/views/quiz-session/tmpl/default.php:173
+msgid "Enter correct email"
+msgstr "Wprowadź poprawny adres e-mail"
+
+#: includes/views/quiz-session/tmpl/default.php:180
+msgid "Show results"
+msgstr "Pokaż wyniki"
+
+#: includes/views/quiz-session/tmpl/default.php:184
+msgid "Skip and Show results"
+msgstr "Pomiń i Pokaż wyniki"
+
+#: includes/views/quiz-session/tmpl/default.php:206
+msgid "Share your result via"
+msgstr "Podziel się swoim wynikiem, za pośrednictwem"
+
+#: includes/views/quiz-session/tmpl/error.php:5
+#, php-format
+msgid "Quiz with ID = \"%d\" does not exist."
+msgstr "Quiz z ID = \"%d\" nie istnieje."
+
+#: includes/views/quiz/class-html.php:47
+#: includes/views/quiz/tmpl/quiz-trivia.php:22
+#: includes/views/quiz/tmpl/quiz-trivia.php:78
+msgid "Untitled"
+msgstr "Bez nazwy"
+
+#: includes/views/quiz/class-html.php:49
+msgid "All changes will be lost. Continue?"
+msgstr "Wszystkie zmiany zostaną utracone. Kontynuować?"
+
+#: includes/views/quiz/class-html.php:51
+msgid "Enter a quiz name"
+msgstr "Wprowadź nazwę quizu"
+
+#: includes/views/quiz/class-html.php:53
+msgid "Populate the quiz with questions"
+msgstr "Zapełnij quiz pytaniami"
+
+#: includes/views/quiz/class-html.php:55
+msgid "Question should contain a text or an image and answers"
+msgstr "Pytanie powinno zawierać tekst lub obraz i odpowiedzi"
+
+#: includes/views/quiz/class-html.php:57
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+#: includes/views/quiz/tmpl/default.php:19
+msgid "Enter quiz title here"
+msgstr "Wpisz tutaj tytuł quizu"
+
+#: includes/views/quiz/tmpl/default.php:32
+#: includes/views/quiz/tmpl/default.php:48
+#: includes/views/settings/tmpl/default.php:50
+msgid "Save"
+msgstr "Zapisz"
+
+#: includes/views/quiz/tmpl/default.php:33
+#: includes/views/quiz/tmpl/default.php:51
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: includes/views/quiz/tmpl/default.php:57
+msgid "Need more features?"
+msgstr "Potrzebujesz więcej funkcji?"
+
+#: includes/views/quiz/tmpl/default.php:59
+msgid "Personality tests"
+msgstr "Testy osobowości"
+
+#: includes/views/quiz/tmpl/default.php:60
+msgid "ActiveCampaign, AWeber, Drip, GetResponse, Zapier integration"
+msgstr "ActiveCampaign, AWeber, Drip, GetResponse, Zapier - integracja"
+
+#: includes/views/quiz/tmpl/default.php:61
+msgid "Extended social sharing"
+msgstr "Rozszerzone udostępnianie społecznościowe"
+
+#: includes/views/quiz/tmpl/default.php:63
+msgid "and many more in PRO version."
+msgstr "i wiele innych w wersji PRO."
+
+#: includes/views/quiz/tmpl/default.php:66
+msgid "Get PRO"
+msgstr "Aktywuj PRO"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:13
+msgid "- Default -"
+msgstr "- Domyślne -"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:22
+msgid "Theme"
+msgstr "Temat"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:27
+msgid "Description"
+msgstr "Opis"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:30
+msgid "Enter quiz description here"
+msgstr "Wprowadź tutaj opis quizu"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:35
+msgid "Shuffle answers"
+msgstr "Przetasuj odpowiedzi"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:39
+msgid "Random questions"
+msgstr "Losowe pytania"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:41
+#, php-format
+msgid "and select %s questions"
+msgstr "i wybierz %s pytań"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:46
+msgid "Start quiz immediately"
+msgstr "Rozpocznij quiz natychmiast"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:50
+msgid "Support shortcodes in questions, quiz description and results"
+msgstr "Wsparcie shortcode w pytaniach, opisach quizu i wynikach"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:51
+msgid "beta"
+msgstr "beta"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:55
+msgid "Show share buttons"
+msgstr "Pokaż przycisk udostępniania"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:60
+msgid "Collect users' data"
+msgstr "Zbieraj dane użytkowników"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:65
+msgid "Ask user name"
+msgstr "Poproś o nazwę użytkownika"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:69
+msgid "Ask e-mail"
+msgstr "Poproś o e-mail"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:73
+msgid "Is optional?"
+msgstr "Czy opcjonalne?"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:77
+msgid "MailChimp integration"
+msgstr "Integracja MailChimp"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:84
+msgid ""
+"Enter a MailChimp API key on \"Settings\" page otherwise integration with "
+"MailChimp service will not work."
+msgstr ""
+"Wprowadź klucz API MailChimp  na stronie \"Ustawienia\", w przeciwnym razie "
+"usługa integracji z MailChimp nie będzie działać."
+
+#: includes/views/quiz/tmpl/quiz-settings.php:92
+#: includes/views/quiz/tmpl/quiz-settings.php:131
+msgid "List"
+msgstr "Lista"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:96
+#: includes/views/quiz/tmpl/quiz-settings.php:135
+msgid "- None -"
+msgstr "- Brak -"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:116
+msgid "MailerLite integration"
+msgstr "Integracja z MailerLite"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:123
+msgid ""
+"Enter a MailerLite API key on \"Settings\" page otherwise integration with "
+"MailerLite service will not work."
+msgstr ""
+"Wprowadź klucz API MailerLite na stronie \"Ustawienia\", w przeciwnym razie "
+"usługa integracji z MailerLite nie będzie działać."
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:4
+#: includes/views/quiz/tmpl/quiz-trivia.php:12
+msgid "Add result template"
+msgstr "Dodaj szablon wyników"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:7
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:20
+msgid "Collapse all"
+msgstr "Zwiń wszystkie"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:9
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:22
+msgid "Expand all"
+msgstr "Rozwiń wszystkie"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:17
+#: includes/views/quiz/tmpl/quiz-trivia.php:68
+msgid "Add question"
+msgstr "Dodaj pytanie"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:4
+msgid "Results"
+msgstr "Wyniki"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:5
+msgid "Questions"
+msgstr "Pytania"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:13
+msgid "Delete all templates"
+msgstr "Usuń wszystkie szablony"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:28
+msgid "Enter title here"
+msgstr "Wprowadź tytuł"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:34
+msgid "points"
+msgstr "punkty"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:40
+#: includes/views/quiz/tmpl/quiz-trivia.php:90
+#: includes/views/quiz/tmpl/quiz-trivia.php:107
+msgid "Select image"
+msgstr "Wybierz obrazek"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:41
+#: includes/views/quiz/tmpl/quiz-trivia.php:91
+#: includes/views/quiz/tmpl/quiz-trivia.php:108
+msgid "Remove image"
+msgstr "Usuń grafikę"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:61
+msgid ""
+"If want to show different content at the end of the quiz based on number of "
+"earned points, add result templates with help of \"ADD RESULT TEMPLATE +\" "
+"button."
+msgstr ""
+"Jeśli chcesz podać różne treści na końcu quizu na podstawie liczby zdobytych "
+"punktów, dodaj szablony wyników za pomocą przycisku \"ADD RESULT TEMPLATE  +"
+"\"."
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:69
+msgid "Delete all questions"
+msgstr "Usuń wszystkie pytania"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:78
+msgid "Question"
+msgstr "Pytanie"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:84
+msgid "Enter question"
+msgstr "Wprowadź pytanie"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:97
+#: includes/views/quiz/tmpl/quiz-trivia.php:127
+msgid "Add answer"
+msgstr "Dodaj odpowiedź"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:101
+msgid "Enter answer"
+msgstr "Wprowadź odpowiedź"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:114
+msgid "Is the correct answer"
+msgstr "Czy jest poprawną odpowiedzią"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:124
+msgid ""
+"Add at least one answer to the question otherwise this question will be "
+"ignored and not saved."
+msgstr ""
+"Dodaj co najmniej jedną odpowiedź na pytanie, w przeciwnym razie to pytanie "
+"zostanie zignorowane i nie zostanie zapisane."
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:144
+msgid ""
+"Use \"ADD QUESTION +\" button to populate the quiz with questions. The quiz "
+"should contain at least one question."
+msgstr ""
+"Użyj przycisku \"ADD QUESTION  \", aby wypełnić quiz pytania. Quiz powinien "
+"zawierać co najmniej jedno pytanie."
+
+#: includes/views/quizzes/class-html.php:24
+msgid "Do you want to delete the selected quiz?"
+msgstr "Czy chcesz usunąć wybrany quiz?"
+
+#: includes/views/quizzes/class-html.php:26
+msgid "Create a copy of the selected quiz?"
+msgstr "Utworzyć kopię wybranego quizu?"
+
+#: includes/views/quizzes/class-html.php:28
+msgid "Do you want to delete the selected quizzes?"
+msgstr "Czy chcesz usunąć wybrane quizy?"
+
+#: includes/views/quizzes/class-html.php:30
+msgid "Create copies of the selected quizzes?"
+msgstr "Utworzyć kopie wybranych quizów?"
+
+#: includes/views/quizzes/class-html.php:32
+msgid "Select at least one quiz please."
+msgstr "Wybierz co najmniej jeden quiz."
+
+#: includes/views/quizzes/class-html.php:34
+msgid "Copied"
+msgstr "Skopiowane"
+
+#: includes/views/quizzes/class-html.php:36
+msgid "Press Ctrl+C to copy"
+msgstr "Naciśnij Ctrl +C, aby skopiować"
+
+#: includes/views/quizzes/tmpl/default.php:42
+#, php-format
+msgctxt "%1$s = new post link, %2$s = new page link"
+msgid ""
+"Create <a href=\"%1$s\" target=\"_blank\">post</a> / <a href=\"%2$s\" target="
+"\"_blank\">page</a>"
+msgstr ""
+"Utwórz <a href=\"%1$s\" target=\"_blank\">wpis</a> / <a href=\"%2$s\" target="
+"\"_blank\">stronę</a>"
+
+#: includes/views/quizzes/tmpl/default.php:45
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s temu"
+
+#: includes/views/quizzes/tmpl/default.php:47
+#: includes/views/quizzes/tmpl/grid-header.php:9
+msgid "Title"
+msgstr "Tytuł"
+
+#: includes/views/quizzes/tmpl/default.php:49
+msgid "Type"
+msgstr "Typ"
+
+#: includes/views/quizzes/tmpl/default.php:51
+#: includes/views/quizzes/tmpl/grid-header.php:10
+msgid "Rodzaj"
+msgstr "Rodzaj"
+
+#: includes/views/quizzes/tmpl/default.php:53
+#: includes/views/quizzes/tmpl/grid-header.php:11
+msgid "Created on"
+msgstr "Utworzone"
+
+#: includes/views/quizzes/tmpl/default.php:55
+#: includes/views/quizzes/tmpl/grid-header.php:12
+msgid "Last update"
+msgstr "Ostatnia aktualizacja"
+
+#: includes/views/quizzes/tmpl/default.php:57
+#: includes/views/quizzes/tmpl/grid-header.php:13
+msgid "Shortcode"
+msgstr "Skrócony kod"
+
+#: includes/views/quizzes/tmpl/default.php:64
+msgid "Add a trivia quiz"
+msgstr "Dodaj quiz ciekawostki"
+
+#: includes/views/quizzes/tmpl/default.php:70
+msgid "Search..."
+msgstr "Szukaj..."
+
+#: includes/views/quizzes/tmpl/default.php:75
+#, php-format
+msgid "%d items found."
+msgstr "Znaleziono %d elementów."
+
+#: includes/views/quizzes/tmpl/default.php:78
+msgid "Search"
+msgstr "Szukaj"
+
+#: includes/views/quizzes/tmpl/default.php:79
+msgid "Reset"
+msgstr "Resetuj"
+
+#: includes/views/quizzes/tmpl/default.php:134
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/views/quizzes/tmpl/default.php:136
+#: includes/views/quizzes/tmpl/grid-toolbar.php:33
+msgid "Copy"
+msgstr "Kopiuj"
+
+#: includes/views/quizzes/tmpl/default.php:138
+#: includes/views/quizzes/tmpl/grid-toolbar.php:34
+msgid "Delete"
+msgstr "Usuń"
+
+#: includes/views/quizzes/tmpl/default.php:146
+msgid "View"
+msgstr "Podgląd"
+
+#: includes/views/quizzes/tmpl/default.php:170
+msgid "Copy to clipboard"
+msgstr "Kopiuj do schowka"
+
+#: includes/views/quizzes/tmpl/default.php:187
+msgid "No quizzes found"
+msgstr "Nie znaleziono quizów"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:32
+msgid "- Bulk actions -"
+msgstr "- Działania masowe -"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:36
+msgid "Apply"
+msgstr "Zapisz"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:43
+msgid "Go to"
+msgstr "Przejdź do"
+
+#: includes/views/settings/class-html.php:8
+msgid "ARI Stream Quiz - Settings"
+msgstr "Quizy - Ustawienia"
+
+#: includes/views/settings/tmpl/default.php:6
+msgid "General"
+msgstr "Ogólne"
+
+#: includes/views/settings/tmpl/default.php:7
+msgid "Sharing"
+msgstr "Udostępnianie"
+
+#: includes/views/settings/tmpl/default.php:8
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: includes/views/settings/tmpl/default.php:9
+msgid "Upgrade"
+msgstr "Uaktualnienie"
+
+msgid "Enter question description here"
+msgstr "Wprowadź tutaj opis pytania"
+
+msgid "Enter Youtube movie ID"
+msgstr "Wprowadź tutaj ID filmu z Youtube"
+
+msgid "Youtube movie ID"
+msgstr "ID filmu z Youtube"
+
+msgid "Enter date start here"
+msgstr "Wprowadź datę startu"
+
+msgid "Enter date end here (till the end of the day)"
+msgstr "Wprowadź datę zakończenia (do końca dnia)"
+
+msgid "Start date"
+msgstr "Data startu"
+
+msgid "End date (till the end of the day)"
+msgstr "Data zakończenia (do końca dnia)"

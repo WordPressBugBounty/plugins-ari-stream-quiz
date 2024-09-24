@@ -1,0 +1,925 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARI Stream Quiz\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-01-29 17:36+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ARI Soft <info@ari-soft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ari-stream-quiz.php:72
+#, php-format
+msgid "update PHP version on your server from v. %s to at least v. %s"
+msgstr ""
+"PHP версии %s используется на Вашем сервере, обновите его минимум до версии "
+"%s"
+
+#: ari-stream-quiz.php:78
+msgid "install PHP SPL extension"
+msgstr "установите SPL расширение для PHP"
+
+#: ari-stream-quiz.php:82
+#, php-format
+msgid "update WordPress v. %s to at least v. %s"
+msgstr "Вы используете WordPress версии %s, обновите его до версии %s или выше"
+
+#: ari-stream-quiz.php:89
+#, php-format
+msgid ""
+"\"ARI Stream Quiz\" can not be activated. It requires PHP version 5.4.0+ "
+"with SPL extension and WordPress 4.0+.<br /><br /><b>Recommendations:</b> %s."
+"<br /><br /><a href=\"%s\" class=\"button button-primary\">Back</a>"
+msgstr ""
+"“ARI Stream Quiz” не может быть установлен. Требуется PHP версии 5.4.0 или "
+"выше с установленным расширением SPL и WordPress версии 4.0 или выше.<br /"
+"><br /><b>Рекомендации:</b> %s.<br /><br /><a href=\"%s\" class=\"button "
+"button-primary\">Назад</a>"
+
+#: includes/class-plugin.php:112 includes/class-plugin.php:113
+msgid "ARI Stream Quiz"
+msgstr "ARI Stream Quiz"
+
+#: includes/class-plugin.php:122 includes/class-plugin.php:123
+#: includes/views/quizzes/class-html.php:10
+msgid "Quizzes"
+msgstr "Викторины"
+
+#: includes/class-plugin.php:131 includes/class-plugin.php:132
+#: includes/views/quiz/tmpl/quiz-trivia.php:6
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-plugin.php:197
+msgid "Are you sure?"
+msgstr "Нажмите “Да”, чтобы подтвердить"
+
+#: includes/class-plugin.php:215
+msgid "Please specify a quiz ID"
+msgstr "Укажите ID викторины"
+
+#: includes/class-plugin.php:267 includes/views/quiz/tmpl/default.php:16
+msgid "Edit Quiz"
+msgstr "Редактирование викторины"
+
+#: includes/class-plugin.php:267 includes/views/quiz/tmpl/default.php:16
+msgid "Add New Quiz"
+msgstr "Новая викторина"
+
+#: includes/controllers/quiz/class-add.php:20
+msgid "The selected quiz type is not supported."
+msgstr "Выбранный тип викторины не поддерживается"
+
+#: includes/controllers/quiz/class-save.php:39
+msgid ""
+"The quiz is not saved. Probably data are corrupted or a database connection "
+"is broken."
+msgstr ""
+"Не удалось сохранить настройки викторины. Возможно были введены некорректные "
+"данные или невозможно подключиться к базе данных."
+
+#: includes/controllers/quiz/class-save.php:52
+msgid "The quiz is saved successfully"
+msgstr "Настройки викторины сохранены успешно"
+
+#: includes/controllers/quizzes/class-bulk-copy.php:31
+msgid "Copies of the quizzes created successfully"
+msgstr "Копии викторин созданы успешно"
+
+#: includes/controllers/quizzes/class-bulk-copy.php:45
+msgid "Copies of the quizzes are not created"
+msgstr "Не удалось создать копии викторин"
+
+#: includes/controllers/quizzes/class-bulk-delete.php:31
+msgid "The quizzes deleted successfully"
+msgstr "Викторины были удалены"
+
+#: includes/controllers/quizzes/class-bulk-delete.php:45
+msgid "The quizzes can not be deleted"
+msgstr "Не удалось удалить выбранные викторины"
+
+#: includes/controllers/quizzes/class-copy.php:29
+msgid "Copy of the quiz created successfully"
+msgstr "Копия викторины создана успешно"
+
+#: includes/controllers/quizzes/class-copy.php:43
+msgid "A copy of the quiz is not created"
+msgstr "Не удалось создать копию викторины"
+
+#: includes/controllers/quizzes/class-delete.php:29
+msgid "The quiz deleted successfully"
+msgstr "Викторина была удалена"
+
+#: includes/controllers/quizzes/class-delete.php:43
+msgid "The quiz can not be deleted"
+msgstr "Не удалось удалить викторину"
+
+#: includes/controllers/quizzes/class-preview.php:27
+msgid "Preview is not available for the selected quiz"
+msgstr "Предварительный просмотр не доступен для выбранной викторины"
+
+#: includes/helpers/class-helper.php:84
+msgid "Trivia"
+msgstr "Викторина"
+
+#: includes/helpers/class-quizzes-screen.php:7
+msgid "Number of items per page"
+msgstr "Кол-во записей на странице"
+
+#: includes/helpers/class-quizzes-screen.php:19
+msgid "Help"
+msgstr "Помощь"
+
+#: includes/helpers/class-quizzes-screen.php:21
+#, php-format
+msgid "User guide is available <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+"Руководство пользователя доступно <a href=\"%s\" target=\"_blank\">здесь</a>."
+
+#: includes/helpers/class-settings.php:124
+msgid "Hide title"
+msgstr "Не показывать название"
+
+#: includes/helpers/class-settings.php:126
+msgid ""
+"If the parameter is enabled, title of the quizzes which are embedded via "
+"shortcode will be hidden. Can be changed directly into shortcode via "
+"hide_title shortcode parameter."
+msgstr ""
+"Если параметр активирован, названия тестов, которые загружены через "
+"shortcode, не будут показаны."
+
+#: includes/helpers/class-settings.php:136
+msgid "Image answers per row"
+msgstr "Кол-во ответов-изображений в строке"
+
+#: includes/helpers/class-settings.php:138
+msgid ""
+"It is used to specify how many image-based answers will be shown per row. "
+"Can be changed directly into shortcode via col shortcode parameter."
+msgstr "Укажите, сколько вопросов-изображений показывать в строке."
+
+#: includes/helpers/class-settings.php:148
+msgid "Default theme"
+msgstr "Тема по умолчанию"
+
+#: includes/helpers/class-settings.php:150
+msgid ""
+"The selected theme will be used for all quizzes by default if it is not "
+"overridden in quiz settings."
+msgstr ""
+"Выбранная тема будет использована для всех викторин по умолчанию, если не "
+"выбрана другая тема в настройках викторины"
+
+#: includes/helpers/class-settings.php:160
+msgid "Smart scroll"
+msgstr "Умная прокрутка"
+
+#: includes/helpers/class-settings.php:162
+msgid ""
+"If the parameter is enabled, the extension will automatically scroll to next "
+"element (question, quiz result and etc.) during quiz session."
+msgstr ""
+"Если параметр активирован, полоса прокрутки будет автоматически "
+"прокручиваться к следующему элементу (вопросу, результатам викторины и т.д.)"
+
+#: includes/helpers/class-settings.php:172
+msgid "Scroll duration"
+msgstr "Длительность прокрутки"
+
+#: includes/helpers/class-settings.php:174
+msgid "The duration in milliseconds of scrolling animation."
+msgstr "Укажите длительность прокрутки в миллисекундах"
+
+#: includes/helpers/class-settings.php:184
+msgid "Scroll offset"
+msgstr "Отступ прокрутки"
+
+#: includes/helpers/class-settings.php:186
+msgid ""
+"The defined offset in pixels will be added to final top position, useful if "
+"template contains fixed elements. Possible to use negative values."
+msgstr ""
+"Указанный отступ (в пикселях) будет добавлен к конечному смещению полосы "
+"прокрутки сверху. Можно использовать отрицательные значения."
+
+#: includes/helpers/class-settings.php:196
+msgid "Show questions at the end"
+msgstr "Показывать вопросы в конце викторины"
+
+#: includes/helpers/class-settings.php:198
+msgid ""
+"If it is enabled, all questions will be shown on quiz final page otherwise "
+"questions will be hidden."
+msgstr ""
+"Если параметр активирован, все вопросы будут показаны пользователю после "
+"окончания викторины"
+
+#: includes/helpers/class-settings.php:208
+msgid "Warning on exit"
+msgstr "Показывать предупреждение при выходе"
+
+#: includes/helpers/class-settings.php:210
+msgid "Warning message will be shown if a user leaves non-completed quiz."
+msgstr ""
+"Предупреждение будет показано, если пользователь решит прервать "
+"незавершённую викторину"
+
+#: includes/helpers/class-settings.php:221
+msgid "Show result per question"
+msgstr "Показывать правильные ответы"
+
+#: includes/helpers/class-settings.php:223
+msgid "Specify should quiz takers see correct answers or not."
+msgstr "Укажите, показывать ли пользователю правильные ответы или нет"
+
+#: includes/helpers/class-settings.php:234
+msgid "API key"
+msgstr "API ключ"
+
+#: includes/helpers/class-settings.php:236
+msgid ""
+"API key is required for integration with MailChimp service. Login to your "
+"MailChimp account, generate API key, copy it and populate the parameter with "
+"it."
+msgstr ""
+"API ключ требуется для интеграции с MailChimp. Войдите в вашу учётную запись "
+"на MailChimp, чтобы создать и скопировать ключ."
+
+#: includes/helpers/class-settings.php:247
+msgid "Facebook App ID"
+msgstr "ID Facebook приложения"
+
+#: includes/helpers/class-settings.php:249
+msgid ""
+"App ID is required to use \"Facebook\" share button. If App ID is not "
+"defined, it will not be possible to specify title, description and image for "
+"sharing content."
+msgstr ""
+"ID приложения нужно, чтобы разрешить пользователям делиться результатами "
+"через Facebook. Если ID приложения не указано, то не будет доступна "
+"возможность указать заголовок, текст и изображение для сообщения на Facebook."
+
+#: includes/helpers/class-settings.php:259
+msgid "Share buttons"
+msgstr "Делиться результатами через"
+
+#: includes/helpers/class-settings.php:261
+msgid "The selected share buttons will be shown on quiz final page."
+msgstr ""
+"Пользователь сможет делиться результатами викторин выбранными способами"
+
+#: includes/helpers/class-settings.php:279
+msgid "Title on result page"
+msgstr "Заголовок на странице с результатами"
+
+#: includes/helpers/class-settings.php:287
+msgid "Title of Facebook post"
+msgstr "Заголовок Facebook сообщения"
+
+#: includes/helpers/class-settings.php:295
+msgid "Content of Facebook post"
+msgstr "Текст Facebook сообщения"
+
+#: includes/helpers/class-settings.php:303
+msgid "Content of Twitter post"
+msgstr "Текст Twitter сообщения"
+
+#: includes/helpers/class-settings.php:311
+msgid "Mail subject"
+msgstr "Тема письма"
+
+#: includes/helpers/class-settings.php:319
+msgid "Mail body"
+msgstr "Текст письма"
+
+#: includes/helpers/class-settings.php:329
+msgid "Clean uninstall"
+msgstr "Полное удаление"
+
+#: includes/helpers/class-settings.php:331
+msgid ""
+"If the parameter is enabled, plugin's settings and data will be removed when "
+"the plugin is uninstalled. Don't enable this option if want to upgrade the "
+"plugin and keep quizzes."
+msgstr ""
+"Если параметр активирован, все тесты, вопросы и другие данные связанные с "
+"плагином будут удалены при удалении плагина."
+
+#: includes/helpers/class-settings.php:341
+msgid "Load Facebook SDK"
+msgstr "Загружать Facebook SDK"
+
+#: includes/helpers/class-settings.php:343
+msgid ""
+"If template or another plugin also loads Facebook JS SDK, it is possible to "
+"disabled SDK loading by the plugin to avoid conflicts."
+msgstr ""
+"Можно отключить загрузку SDK, чтобы избежать конфликтов с другими "
+"приложениями, если шаблон сайта или другой плагин также загружает яваскрипт "
+"Facebook SDK."
+
+#: includes/helpers/class-settings.php:353
+msgid "Images lazy loading"
+msgstr "Загружать изображения по требованию"
+
+#: includes/helpers/class-settings.php:355
+msgid ""
+"If the parameter is enabled, images in questions and answers will be loaded "
+"only when quiz is started (if \"Start quiz\" button is used) to increase "
+"page speed and a loading icon will be shown until images are loaded."
+msgstr ""
+"Если параметр активирован, изображения, которые используются в вопросах и "
+"ответах, будут загружены только когда пользователь начнет викторину (нажмёт "
+"кнопку “Начать”). Используется чтобы ускорить загрузку страниц."
+
+#: includes/helpers/class-settings.php:365
+msgid "Custom CSS styles"
+msgstr "Дополнительные CSS стили"
+
+#: includes/helpers/class-settings.php:367
+msgid ""
+"The defined CSS rules will be added on frontend pages with quizzes. Can be "
+"used to resolve style conflicts or for customization."
+msgstr "Введённый CSS код будет добавлен на все страницы с викторинами."
+
+#: includes/helpers/class-settings.php:421
+msgid "Contains global parameters for configuration quizzes look'n'feel."
+msgstr "Параметры для изменения дизайна и поведения викторин"
+
+#: includes/helpers/class-settings.php:425
+msgid "Configure shortcode parameters"
+msgstr "Параметры shortcode по умолчанию"
+
+#: includes/helpers/class-settings.php:429
+msgid "The parameters are used for integration with MailChimp service"
+msgstr "Параметры для интеграции с MailChimp"
+
+#: includes/helpers/class-settings.php:433
+msgid "Contains parameters for configuration share buttons"
+msgstr "Делиться контентом через"
+
+#: includes/helpers/class-settings.php:437
+msgid ""
+"This parameters section is used to configure content for quiz final page."
+msgstr "Параметры для определения контента страницы с результатами"
+
+#: includes/helpers/class-settings.php:443
+msgid ""
+"The following predefined variables are supported: <ul><li><b>{{userScore}}</"
+"b> contains number of correctly answered questions</"
+"li><li><b>{{userScorePercent}}</b> contains number of correctly answered "
+"questions in percent</li><li><b>{{maxScore}}</b> contains number of "
+"questions</li><li><b>{{title}}</b> contains title of result template</"
+"li><li><b>{{content}}</b> contains content of result template</"
+"li><li><b>{{quiz}}</b> contains quiz name</li><li><b>{{url}}</b> contains "
+"page URL</li></ul>"
+msgstr ""
+
+#: includes/helpers/class-settings.php:448
+msgid "This section contains advanced parameters for fine tuning of the plugin"
+msgstr "Параметры тонкой настройки приложения"
+
+#: includes/helpers/class-settings.php:500
+msgid "pixels"
+msgstr "пиксели"
+
+#: includes/helpers/class-settings.php:511
+msgid "milliseconds"
+msgstr "миллисекунды"
+
+#: includes/helpers/class-settings.php:554 includes/views/class-base.php:32
+msgid "No"
+msgstr "Нет"
+
+#: includes/helpers/class-settings.php:556
+msgid "Immediately after user answer"
+msgstr "Сразу после ответа пользователя"
+
+#: includes/helpers/class-settings.php:558
+msgid "When quiz is completed"
+msgstr "После окончания викторины"
+
+#: includes/helpers/class-settings.php:582
+msgid "Where get API key?"
+msgstr "Где найти API ключ?"
+
+#: includes/helpers/class-settings.php:602
+#: includes/views/quiz-session/tmpl/default.php:212
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/helpers/class-settings.php:603
+#: includes/views/quiz-session/tmpl/default.php:228
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/helpers/class-settings.php:604
+#: includes/views/quiz-session/tmpl/default.php:245
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/helpers/class-settings.php:605
+#: includes/views/quiz-session/tmpl/default.php:257
+msgid "Email"
+msgstr "Email"
+
+#: includes/views/class-base.php:30
+msgid "Yes"
+msgstr "Да"
+
+#: includes/views/class-base.php:34
+msgid "OK"
+msgstr "OK"
+
+#: includes/views/class-base.php:36
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/views/quiz-session/class-html.php:55
+msgid "Correct"
+msgstr "Правильно"
+
+#: includes/views/quiz-session/class-html.php:57
+msgid "Wrong"
+msgstr "Неверно"
+
+#: includes/views/quiz-session/class-html.php:62
+msgid "The quiz is not completed, do you want to leave the page?"
+msgstr "Викторина не завершена, хотите покинуть страницу?"
+
+#: includes/views/quiz-session/tmpl/default.php:40
+msgid "Start quiz"
+msgstr "Начать"
+
+#: includes/views/quiz-session/tmpl/default.php:149
+msgid "Complete the form below to see results"
+msgstr "Заполните форму, чтобы перейти к странице с результатами "
+
+#: includes/views/quiz-session/tmpl/default.php:155
+msgid "Your name"
+msgstr "Имя"
+
+#: includes/views/quiz-session/tmpl/default.php:156
+msgid "Enter your name"
+msgstr "Введите имя"
+
+#: includes/views/quiz-session/tmpl/default.php:165
+msgid "Your e-mail"
+msgstr "Эл. почта"
+
+#: includes/views/quiz-session/tmpl/default.php:166
+msgid "Enter your e-mail"
+msgstr "Введите e-mail"
+
+#: includes/views/quiz-session/tmpl/default.php:166
+msgid "Enter your email"
+msgstr "Введите e-mail"
+
+#: includes/views/quiz-session/tmpl/default.php:166
+msgid "Enter correct email"
+msgstr "Введите корректный e-mail"
+
+#: includes/views/quiz-session/tmpl/default.php:173
+msgid "Show results"
+msgstr "Показать результаты"
+
+#: includes/views/quiz-session/tmpl/default.php:177
+msgid "Skip and Show results"
+msgstr "Пропустить и показать результаты"
+
+#: includes/views/quiz-session/tmpl/default.php:199
+msgid "Share your result via"
+msgstr "Поделиться результатами через"
+
+#: includes/views/quiz-session/tmpl/error.php:5
+#, php-format
+msgid "Quiz with ID = \"%d\" does not exist."
+msgstr "Викторина с ID = “%d” не найдена."
+
+#: includes/views/quiz/class-html.php:45
+#: includes/views/quiz/tmpl/quiz-trivia.php:22
+#: includes/views/quiz/tmpl/quiz-trivia.php:78
+msgid "Untitled"
+msgstr "Без названия"
+
+#: includes/views/quiz/class-html.php:47
+msgid "All changes will be lost. Continue?"
+msgstr "Все изменения будут утеряны. Продолжить?"
+
+#: includes/views/quiz/class-html.php:49
+msgid "Enter a quiz name"
+msgstr "Введите название викторины"
+
+#: includes/views/quiz/class-html.php:51
+msgid "Populate the quiz with questions"
+msgstr "Добавить вопросы"
+
+#: includes/views/quiz/class-html.php:53
+msgid "Question should contain a text or an image and answers"
+msgstr "Вопрос должен содержать текст или изображение и ответы"
+
+#: includes/views/quiz/class-html.php:55
+msgid "Loading..."
+msgstr "Загрузка…"
+
+#: includes/views/quiz/tmpl/default.php:19
+msgid "Enter quiz title here"
+msgstr "Введите название викторины"
+
+#: includes/views/quiz/tmpl/default.php:25
+#: includes/views/quiz/tmpl/default.php:41
+#: includes/views/settings/tmpl/default.php:35
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/views/quiz/tmpl/default.php:26
+#: includes/views/quiz/tmpl/default.php:44
+msgid "Cancel"
+msgstr "Отменить"
+
+#: includes/views/quiz/tmpl/default.php:50
+msgid "Need more features?"
+msgstr "Больше возможностей?"
+
+#: includes/views/quiz/tmpl/default.php:52
+msgid "Personality quiz"
+msgstr "Личностный тест"
+
+#: includes/views/quiz/tmpl/default.php:53
+msgid "ActiveCampaign, AWeber, Drip, GetResponse, Zapier integration"
+msgstr "ActiveCampaign, AWeber, Drip, GetResponse, Zapier интеграция"
+
+#: includes/views/quiz/tmpl/default.php:54
+msgid "Extended social sharing"
+msgstr "Pinterest, LinkedIn, VK"
+
+#: includes/views/quiz/tmpl/default.php:56
+msgid "and many more in PRO version."
+msgstr "и другое в PRO версии."
+
+#: includes/views/quiz/tmpl/default.php:59
+msgid "Get PRO"
+msgstr "Скачать PRO"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:11
+msgid "- Default -"
+msgstr "- По умолчанию -"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:20
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:25
+msgid "Description"
+msgstr "Описание"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:28
+msgid "Enter quiz description here"
+msgstr "Введите описание викторины"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:33
+msgid "Shuffle answers"
+msgstr "Перемешать ответы"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:37
+msgid "Random questions"
+msgstr "Случайные вопросы"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:39
+#, php-format
+msgid "and select %s questions"
+msgstr "и выбрать %s вопросов"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:44
+msgid "Start quiz immediately"
+msgstr "Скрыть кнопку “Начать”"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:48
+msgid "Show share buttons"
+msgstr "Разрешить делиться результатами"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:53
+msgid "Collect users' data"
+msgstr "Собирать данные пользователей"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:58
+msgid "Ask user name"
+msgstr "Спрашивать имя"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:62
+msgid "Ask e-mail"
+msgstr "Спрашивать e-mail"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:66
+msgid "Is optional?"
+msgstr "По желанию пользователя"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:70
+msgid "MailChimp integration"
+msgstr "Интеграция с MailChimp"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:77
+msgid ""
+"Enter a MailChimp API key on \"Settings\" page otherwise integration with "
+"MailChimp service will not work."
+msgstr ""
+"Введите MailChimp API ключ на странице “Настройки” для интеграция с "
+"MailChimp "
+
+#: includes/views/quiz/tmpl/quiz-settings.php:85
+msgid "List"
+msgstr "Список"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:89
+msgid "- None -"
+msgstr "- Не выбрано -"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:4
+#: includes/views/quiz/tmpl/quiz-trivia.php:12
+msgid "Add result template"
+msgstr "Добавить шаблон"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:7
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:20
+msgid "Collapse all"
+msgstr "Свернуть"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:9
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:22
+msgid "Expand all"
+msgstr "Показать"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:17
+#: includes/views/quiz/tmpl/quiz-trivia.php:68
+msgid "Add question"
+msgstr "Добавить вопрос"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:4
+msgid "Results"
+msgstr "Результаты"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:5
+msgid "Questions"
+msgstr "Вопросы"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:13
+msgid "Delete all templates"
+msgstr "Удалить все шаблоны"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:28
+msgid "Enter title here"
+msgstr "Введите заголовок"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:34
+msgid "points"
+msgstr "очки"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:40
+#: includes/views/quiz/tmpl/quiz-trivia.php:90
+#: includes/views/quiz/tmpl/quiz-trivia.php:107
+msgid "Select image"
+msgstr "Выберите изображение"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:41
+#: includes/views/quiz/tmpl/quiz-trivia.php:91
+#: includes/views/quiz/tmpl/quiz-trivia.php:108
+msgid "Remove image"
+msgstr "Убрать изображение"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:61
+msgid ""
+"If want to show different content at the end of the quiz based on number of "
+"earned points, add result templates with help of \"ADD RESULT TEMPLATE +\" "
+"button."
+msgstr ""
+"Если хотите показывать разный текст в конце викторины в зависимости от кол-"
+"во верных ответов, добавьте шаблоны с помощью кнопки “ДОБАВИТЬ ШАБЛОН +”."
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:69
+msgid "Delete all questions"
+msgstr "Удалить все вопросы"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:78
+msgid "Question"
+msgstr "Вопрос"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:84
+msgid "Enter question"
+msgstr "Введите вопрос"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:97
+#: includes/views/quiz/tmpl/quiz-trivia.php:127
+msgid "Add answer"
+msgstr "Добавить ответ"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:101
+msgid "Enter answer"
+msgstr "Введите ответ"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:114
+msgid "Is the correct answer"
+msgstr "Верный ответ"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:124
+msgid ""
+"Add at least one answer to the question otherwise this question will be "
+"ignored and not saved."
+msgstr "Добавьте как минимум один ответ иначе вопрос будет удалён из викторины"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:143
+msgid ""
+"Use \"ADD QUESTION +\" button to populate the quiz with questions. The quiz "
+"should contain at least one question."
+msgstr ""
+"Используйте кнопку “ДОБАВИТЬ ВОПРОС+”, чтобы добавить вопросы в викторину. "
+"Викторины должна содержать минимум один вопрос."
+
+#: includes/views/quizzes/class-html.php:24
+msgid "Do you want to delete the selected quiz?"
+msgstr "Удалить выбранную викторину?"
+
+#: includes/views/quizzes/class-html.php:26
+msgid "Create a copy of the selected quiz?"
+msgstr "Создать копию выбранной викторины?"
+
+#: includes/views/quizzes/class-html.php:28
+msgid "Do you want to delete the selected quizzes?"
+msgstr "Удалить выбранные викторины?"
+
+#: includes/views/quizzes/class-html.php:30
+msgid "Create copies of the selected quizzes?"
+msgstr "Создать копии выбранных викторин?"
+
+#: includes/views/quizzes/class-html.php:32
+msgid "Select at least one quiz please."
+msgstr "Выберите хотя бы одну викторину."
+
+#: includes/views/quizzes/class-html.php:34
+msgid "Copied"
+msgstr "Скопировано"
+
+#: includes/views/quizzes/class-html.php:36
+msgid "Press Ctrl+C to copy"
+msgstr "Нажмите Ctrl+C чтобы скопировать"
+
+#: includes/views/quizzes/tmpl/default.php:42
+#, php-format
+msgctxt "%1$s = new post link, %2$s = new page link"
+msgid ""
+"Create <a href=\"%1$s\" target=\"_blank\">post</a> / <a href=\"%2$s\" target="
+"\"_blank\">page</a>"
+msgstr ""
+"Создать <a href=\"%1$s\" target=\"_blank\">запись</a> / <a href=\"%2$s\" "
+"target=\"_blank\">страницу</a>"
+
+#: includes/views/quizzes/tmpl/default.php:45
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/views/quizzes/tmpl/default.php:47
+#: includes/views/quizzes/tmpl/grid-header.php:9
+msgid "Title"
+msgstr "Название"
+
+#: includes/views/quizzes/tmpl/default.php:49
+msgid "Type"
+msgstr "Тип"
+
+#: includes/views/quizzes/tmpl/default.php:51
+#: includes/views/quizzes/tmpl/grid-header.php:10
+msgid "Author"
+msgstr "Автор"
+
+#: includes/views/quizzes/tmpl/default.php:53
+#: includes/views/quizzes/tmpl/grid-header.php:11
+msgid "Created on"
+msgstr "Создана"
+
+#: includes/views/quizzes/tmpl/default.php:55
+#: includes/views/quizzes/tmpl/grid-header.php:12
+msgid "Last update"
+msgstr "Изменена"
+
+#: includes/views/quizzes/tmpl/default.php:57
+#: includes/views/quizzes/tmpl/grid-header.php:13
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/views/quizzes/tmpl/default.php:64
+msgid "Add a trivia quiz"
+msgstr "Добавить викторину"
+
+#: includes/views/quizzes/tmpl/default.php:70
+msgid "Search..."
+msgstr "Поиск…"
+
+#: includes/views/quizzes/tmpl/default.php:75
+#, php-format
+msgid "%d items found."
+msgstr "%d записей найдено."
+
+#: includes/views/quizzes/tmpl/default.php:78
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/views/quizzes/tmpl/default.php:79
+msgid "Reset"
+msgstr "Сбросить"
+
+#: includes/views/quizzes/tmpl/default.php:134
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/views/quizzes/tmpl/default.php:136
+#: includes/views/quizzes/tmpl/grid-toolbar.php:33
+msgid "Copy"
+msgstr "Копия"
+
+#: includes/views/quizzes/tmpl/default.php:138
+#: includes/views/quizzes/tmpl/grid-toolbar.php:34
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/views/quizzes/tmpl/default.php:146
+msgid "View"
+msgstr "Просмотр"
+
+#: includes/views/quizzes/tmpl/default.php:168
+msgid "Copy to clipboard"
+msgstr "Копировать в буфер"
+
+#: includes/views/quizzes/tmpl/default.php:185
+msgid "No quizzes found"
+msgstr "Ничего не найдено"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:32
+msgid "- Bulk actions -"
+msgstr "- Действие -"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:36
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:43
+msgid "Go to"
+msgstr "Страница"
+
+#: includes/views/settings/class-html.php:8
+msgid "ARI Stream Quiz - Settings"
+msgstr "ARI Stream Quiz - Настройки"
+
+#: includes/views/settings/tmpl/default.php:6
+msgid "General"
+msgstr "Основные"
+
+#: includes/views/settings/tmpl/default.php:7
+msgid "Sharing"
+msgstr "Шаринг"
+
+#: includes/views/settings/tmpl/default.php:8
+msgid "Advanced"
+msgstr "Продвинутые"
+
+#: includes/views/settings/tmpl/default.php:9
+msgid "Upgrade"
+msgstr "Улучшить"
+
+#~ msgid ""
+#~ "The following predefined variables are supported: <ul><li><b>{{userScore}}"
+#~ "</b> contains number of correctly answered questions</"
+#~ "li><li><b>{{maxScore}}</b> contains number of questions</"
+#~ "li><li><b>{{title}}</b> contains title of result template</"
+#~ "li><li><b>{{content}}</b> contains content of result template</"
+#~ "li><li><b>{{quiz}}</b> contains quiz name</li><li><b>{{url}}</b> contains "
+#~ "page URL</li></ul>"
+#~ msgstr ""
+#~ "Можно использовать следующие переменные: <ul><li><b>{{userScore}}</b> - "
+#~ "кол-во правильных ответов</li><li><b>{{maxScore}}</b> - кол-во вопросов</"
+#~ "li><li><b>{{title}}</b> - заголовок шаблона</li><li><b>{{content}}</b> - "
+#~ "текст шаблона</li><li><b>{{quiz}}</b> - название викторины</"
+#~ "li><li><b>{{url}}</b> - ссылка страницы с викториной</li></ul>"
+
+#~ msgid ""
+#~ "App ID is required to use \"Facebook\" share button. If App ID is not "
+#~ "defined, it will not be possible to possible to title, description and "
+#~ "image for sharing content."
+#~ msgstr ""
+#~ "ID приложения требуется для того, чтобы делиться результатами и ссылками "
+#~ "на викторины через Facebook. Если ID приложения не указано, то нельзя "
+#~ "будет указать заголовок, текст и изображение для Facebook сообщения."

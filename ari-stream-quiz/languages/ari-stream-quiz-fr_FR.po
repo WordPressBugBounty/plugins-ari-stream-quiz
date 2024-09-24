@@ -1,0 +1,628 @@
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ARI Stream Quiz\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-11-01 11:01+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: philippe K. <philippe.koechlin@gmail.com>, 2016\n"
+"Language-Team: French (France) (https://www.transifex.com/wp-translations/teams/8416/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+
+#: includes/class-plugin.php:110 includes/class-plugin.php:111
+msgid "ARI Stream Quiz"
+msgstr "ARI Stream Quiz"
+
+#: includes/class-plugin.php:120 includes/class-plugin.php:121
+#: includes/views/quizzes/class-html.php:10
+msgid "Quizzes"
+msgstr "Quiz"
+
+#: includes/class-plugin.php:129 includes/class-plugin.php:130
+#: includes/views/quiz/tmpl/quiz-trivia.php:6
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class-plugin.php:187
+msgid "Please specify a quiz ID"
+msgstr "Veuillez sélectionner un ID de quiz"
+
+#: includes/class-plugin.php:228 includes/views/quiz/tmpl/default.php:16
+msgid "Edit Quiz"
+msgstr "Modifier le quiz"
+
+#: includes/class-plugin.php:228 includes/views/quiz/tmpl/default.php:16
+msgid "Add New Quiz"
+msgstr "Ajouter un nouveau quiz"
+
+#: includes/controllers/quiz/class-add.php:20
+msgid "The selected quiz type is not supported."
+msgstr "Le type de quiz sélectionné n'est pas pris en charge."
+
+#: includes/controllers/quiz/class-save.php:39
+msgid ""
+"The quiz is not saved. Probably data are corrupted or a database connection "
+"is broken."
+msgstr ""
+"Le quiz n'a pas été enregistré. Les données sont probablement corrompues ou "
+"la connexion à la base de données est rompue."
+
+#: includes/controllers/quiz/class-save.php:52
+msgid "The quiz is saved successfully"
+msgstr "Le quiz a bien été enregistré."
+
+#: includes/controllers/quizzes/class-bulk-copy.php:31
+msgid "Copies of the quizzes created successfully"
+msgstr "Les copies des quiz ont été correctement créées."
+
+#: includes/controllers/quizzes/class-bulk-copy.php:45
+msgid "Copies of the quizzes are not created"
+msgstr "Les copies des quiz n'ont pas été créés."
+
+#: includes/controllers/quizzes/class-bulk-delete.php:31
+msgid "The quizzes deleted successfully"
+msgstr "Les quiz ont été correctement supprimés."
+
+#: includes/controllers/quizzes/class-bulk-delete.php:45
+msgid "The quizzes can not be deleted"
+msgstr "Les quiz ne peuvent pas être supprimés."
+
+#: includes/controllers/quizzes/class-copy.php:29
+msgid "Copy of the quiz created successfully"
+msgstr "Copie du quiz correctement créée."
+
+#: includes/controllers/quizzes/class-copy.php:43
+msgid "A copy of the quiz is not created"
+msgstr "Une copie du quiz n'a pas été créée."
+
+#: includes/controllers/quizzes/class-delete.php:29
+msgid "The quiz deleted successfully"
+msgstr "Le quiz a été correctement supprimé."
+
+#: includes/controllers/quizzes/class-delete.php:43
+msgid "The quiz can not be deleted"
+msgstr "Le quiz ne peut pas être supprimé."
+
+#: includes/controllers/quizzes/class-preview.php:27
+msgid "Preview is not available for the selected quiz"
+msgstr "L'aperçu n'est pas disponible pour le quiz sélectionné."
+
+#: includes/helpers/class-helper.php:79
+msgid "Trivia"
+msgstr "Trivia"
+
+#: includes/helpers/class-quizzes-screen.php:7
+msgid "Number of items per page"
+msgstr "Nombre d’éléments par page"
+
+#: includes/helpers/class-quizzes-screen.php:19
+msgid "Help"
+msgstr "Aide"
+
+#: includes/helpers/class-quizzes-screen.php:21
+#, php-format
+msgid "User guide is available <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+"Le guide d’utilisation est disponible <a href=\"%s\" "
+"target=\"_blank\">ici</a>."
+
+#: includes/helpers/class-settings.php:72
+msgid "Default theme"
+msgstr "Thème par défaut"
+
+#: includes/helpers/class-settings.php:74
+msgid ""
+"The selected theme will be used for all quizzes by default if it is not "
+"overridden in quiz settings."
+msgstr ""
+"Le thème sélectionné sera utilisé par défaut pour tous les quiz, s'il n'est "
+"pas écrasé dans les paramètres du quiz."
+
+#: includes/helpers/class-settings.php:84
+msgid "Smart scroll"
+msgstr "Défilement intelligent"
+
+#: includes/helpers/class-settings.php:86
+msgid ""
+"If the parameter is enabled, the extension will automatically scroll to next"
+" element (question, quiz result and etc.) during quiz session."
+msgstr ""
+"Si le paramètre est activé, l'extension fera dérouler automatiquement "
+"jusqu'au prochain élément (question, résultat du test, etc.) durant la "
+"session de quiz."
+
+#: includes/helpers/class-settings.php:96
+msgid "Scroll duration"
+msgstr "Durée du défilement"
+
+#: includes/helpers/class-settings.php:98
+msgid "The duration in milliseconds of scrolling animation."
+msgstr "La durée en millisecondes de l’animation du défilement."
+
+#: includes/helpers/class-settings.php:108
+msgid "Scroll offset"
+msgstr "Décalage du défilement"
+
+#: includes/helpers/class-settings.php:110
+msgid ""
+"The defined offset in pixels will be added to final top position, useful if "
+"template contains fixed elements. Possible to use negative values."
+msgstr ""
+"Le décalage défini en pixels sera ajouté à la position supérieure finale, "
+"utile si le modèle contient des éléments fixes. Il est possible d'utiliser "
+"des valeurs négatives."
+
+#: includes/helpers/class-settings.php:120
+msgid "Show questions at the end"
+msgstr "Afficher les questions à la fin"
+
+#: includes/helpers/class-settings.php:122
+msgid ""
+"If it is enabled, all questions will be shown on quiz final page otherwise "
+"questions will be hidden."
+msgstr ""
+"Si c'est activé, toutes les questions seront affichées sur le quiz de la "
+"page finale, sinon les questions seront masquées."
+
+#: includes/helpers/class-settings.php:133
+msgid "Show result per question"
+msgstr "Afficher le résultat par question"
+
+#: includes/helpers/class-settings.php:135
+msgid "Specify should quiz takers see correct answers or not."
+msgstr ""
+"Précisez si les participants au quiz doivent voir les réponses correctes ou "
+"pas."
+
+#: includes/helpers/class-settings.php:153
+msgid "Title on result page"
+msgstr "Titre sur la page de résultat"
+
+#: includes/helpers/class-settings.php:163
+msgid "Custom CSS styles"
+msgstr "Styles CSS personnalisés"
+
+#: includes/helpers/class-settings.php:165
+msgid ""
+"The defined CSS rules will be added on frontend pages with quizzes. Can be "
+"used to resolve style conflicts or for customization."
+msgstr ""
+"Les règles CSS définies seront ajoutées sur les pages de l'interface "
+"publique avec des quiz. Cela peut être utilisé pour résoudre des conflits de"
+" style ou pour la personnalisation."
+
+#: includes/helpers/class-settings.php:219
+msgid "Contains global parameters for configuration quizzes look'n'feel."
+msgstr ""
+"Contient des paramètres globaux pour la configuration des quizzes "
+"look'n'feel."
+
+#: includes/helpers/class-settings.php:223
+msgid ""
+"This parameters section is used to configure content for quiz final page."
+msgstr ""
+"Les paramètres de cette section sont utilisés pour configurer le contenu de "
+"la page finale du quiz."
+
+#: includes/helpers/class-settings.php:229
+msgid ""
+"The following predefined variables are supported: "
+"<ul><li><b>{{userScore}}</b> contains number of correctly answered "
+"questions</li><li><b>{{maxScore}}</b> contains number of "
+"questions</li><li><b>{{title}}</b> contains title of result "
+"template</li><li><b>{{content}}</b> contains content of result "
+"template</li><li><b>{{quiz}}</b> contain quiz name</li></ul>"
+msgstr ""
+"Les variables prédéfinies suivantes sont prises en "
+"charge&nbsp;:<ul><li><b>{{userScore}}</b> contient le nombre de réponses "
+"correctes aux questions</li><li><b>{{maxScore}}</b> contient le nombre de "
+"questions</li><li><b>{{title}}</b> contient le titre du modèle de "
+"résultat</li><li><b>{{content}}</b> contient le modèle de "
+"résultat</li><li><b>{{quiz}}</b> contient le nom du quiz</li></ul>"
+
+#: includes/helpers/class-settings.php:234
+msgid ""
+"This section contains advanced parameters for fine tuning of the plugin"
+msgstr ""
+"Cette section contient les paramètres avancés pour un réglage fin de "
+"l'extension."
+
+#: includes/helpers/class-settings.php:266
+msgid "pixels"
+msgstr "pixels"
+
+#: includes/helpers/class-settings.php:277
+msgid "milliseconds"
+msgstr "millisecondes"
+
+#: includes/helpers/class-settings.php:310 includes/views/class-base.php:30
+msgid "No"
+msgstr "Non"
+
+#: includes/helpers/class-settings.php:312
+msgid "Immediately after user answer"
+msgstr "Immédiatement après la réponse de l’utilisateur"
+
+#: includes/helpers/class-settings.php:314
+msgid "When quiz is completed"
+msgstr "Quand le quiz est terminé"
+
+#: includes/views/class-base.php:28
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/views/class-base.php:32
+msgid "OK"
+msgstr "OK"
+
+#: includes/views/class-base.php:34
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/views/quiz-session/class-html.php:42
+msgid "Correct"
+msgstr "Exact"
+
+#: includes/views/quiz-session/class-html.php:44
+msgid "Wrong"
+msgstr "Faux"
+
+#: includes/views/quiz-session/tmpl/default.php:32
+msgid "Start quiz"
+msgstr "Commencer le quiz"
+
+#: includes/views/quiz-session/tmpl/error.php:5
+#, php-format
+msgid "Quiz with ID = \"%d\" does not exist."
+msgstr "Le quiz avec l'ID = \"%d\" n'existe pas."
+
+#: includes/views/quiz/class-html.php:38
+#: includes/views/quiz/tmpl/quiz-trivia.php:22
+#: includes/views/quiz/tmpl/quiz-trivia.php:78
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: includes/views/quiz/class-html.php:40
+msgid "All changes will be lost. Continue?"
+msgstr "Toutes les modifications seront perdues. Continuer ?"
+
+#: includes/views/quiz/class-html.php:42
+msgid "Enter a quiz name"
+msgstr "Saisissez le titre du quiz"
+
+#: includes/views/quiz/class-html.php:44
+msgid "Populate the quiz with questions"
+msgstr "Remplissez le quiz de questions"
+
+#: includes/views/quiz/class-html.php:46
+msgid "Question should contain a text or an image and answers"
+msgstr "La question doit contenir un texte ou une image et une réponse"
+
+#: includes/views/quiz/tmpl/default.php:19
+msgid "Enter quiz title here"
+msgstr "Saisissez le titre du quiz ici"
+
+#: includes/views/quiz/tmpl/default.php:25
+#: includes/views/quiz/tmpl/default.php:41
+#: includes/views/settings/tmpl/default.php:27
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/views/quiz/tmpl/default.php:26
+#: includes/views/quiz/tmpl/default.php:44
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/views/quiz/tmpl/default.php:50
+msgid "Need more features?"
+msgstr "Vous avez besoin de plus de fonctionnalités ?"
+
+#: includes/views/quiz/tmpl/default.php:52
+msgid "Data capturing"
+msgstr "Capture des données"
+
+#: includes/views/quiz/tmpl/default.php:53
+msgid "Personality quiz"
+msgstr "Quiz de personnalité"
+
+#: includes/views/quiz/tmpl/default.php:54
+msgid "MailChimp integration"
+msgstr "Intégration de MailChimp"
+
+#: includes/views/quiz/tmpl/default.php:55
+msgid "AWeber integration"
+msgstr "Intégration d’Aweber"
+
+#: includes/views/quiz/tmpl/default.php:56
+msgid "Social sharing"
+msgstr "Partage sur les réseaux sociaux"
+
+#: includes/views/quiz/tmpl/default.php:58
+msgid "and many more in PRO version."
+msgstr "Et bien plus dans la version PRO"
+
+#: includes/views/quiz/tmpl/default.php:61
+msgid "Get PRO"
+msgstr "Passer en PRO"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:8
+msgid "- Default -"
+msgstr "- Par défaut -"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:17
+msgid "Theme"
+msgstr "Thème"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:22
+msgid "Description"
+msgstr "Description"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:25
+msgid "Enter quiz description here"
+msgstr "Saisissez la description du quiz ici"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:30
+msgid "Shuffle answers"
+msgstr "Mélanger les réponses"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:34
+msgid "Random questions"
+msgstr "Questions aléatoires"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:36
+#, php-format
+msgid "and select %s questions"
+msgstr "et sélectionner %s questions"
+
+#: includes/views/quiz/tmpl/quiz-settings.php:41
+msgid "Start quiz immediately"
+msgstr "Lancez le quiz immédiatement"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:4
+#: includes/views/quiz/tmpl/quiz-trivia.php:12
+msgid "Add result template"
+msgstr "Ajouter le modèle de résultat"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:7
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:20
+msgid "Collapse all"
+msgstr "Tout replier"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:9
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:22
+msgid "Expand all"
+msgstr "Tout étendre"
+
+#: includes/views/quiz/tmpl/quiz-trivia-metabox.php:17
+#: includes/views/quiz/tmpl/quiz-trivia.php:68
+msgid "Add question"
+msgstr "Ajouter une question"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:4
+#: includes/views/settings/tmpl/default.php:7
+msgid "Results"
+msgstr "Résultats"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:5
+msgid "Questions"
+msgstr "Questions"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:13
+msgid "Delete all templates"
+msgstr "Supprimer tous les modèles"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:28
+msgid "Enter title here"
+msgstr "Saisissez le titre ici"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:34
+msgid "points"
+msgstr "points"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:40
+#: includes/views/quiz/tmpl/quiz-trivia.php:90
+#: includes/views/quiz/tmpl/quiz-trivia.php:107
+msgid "Select image"
+msgstr "Sélectionner une image"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:41
+#: includes/views/quiz/tmpl/quiz-trivia.php:91
+#: includes/views/quiz/tmpl/quiz-trivia.php:108
+msgid "Remove image"
+msgstr "Retirer l'image"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:61
+msgid ""
+"If want to show different content at the end of the quiz based on number of "
+"earned points, add result templates with help of \"ADD RESULT TEMPLATE +\" "
+"button."
+msgstr ""
+"Si vous souhaitez afficher un contenu différent à la fin du quiz en fonction"
+" du nombre de points obtenus, ajoutez des modèles de résultats à l'aide du "
+"bouton \"AJOUTER MODÈLE DE RÉSULTAT +\"."
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:69
+msgid "Delete all questions"
+msgstr "Supprimer toutes les questions"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:78
+msgid "Question"
+msgstr "Question"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:84
+msgid "Enter question"
+msgstr "Saisir la question"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:97
+#: includes/views/quiz/tmpl/quiz-trivia.php:127
+msgid "Add answer"
+msgstr "Ajouter la réponse"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:101
+msgid "Enter answer"
+msgstr "Saisir la réponse"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:114
+msgid "Is the correct answer"
+msgstr "Est la bonne réponse"
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:124
+msgid ""
+"Add at least one answer to the question otherwise this question will be "
+"ignored and not saved."
+msgstr ""
+"Ajoutez au moins une réponse à la question sans quoi cette question sera "
+"ignorée et non enregistrée."
+
+#: includes/views/quiz/tmpl/quiz-trivia.php:143
+msgid ""
+"Use \"ADD QUESTION +\" button to populate the quiz with questions. The quiz "
+"should contain at least one question."
+msgstr ""
+"Utilisez le bouton \"AJOUTER QUESTION +\" pour remplir le quiz avec des "
+"questions. Le quiz doit contenir au moins une question."
+
+#: includes/views/quizzes/class-html.php:24
+msgid "Do you want to delete the selected quiz?"
+msgstr "Voulez-vous vraiment supprimer le quiz sélectionné ?"
+
+#: includes/views/quizzes/class-html.php:26
+msgid "Create a copy of the selected quiz?"
+msgstr "Créez une copie du quiz sélectionné ?"
+
+#: includes/views/quizzes/class-html.php:28
+msgid "Do you want to delete the selected quizzes?"
+msgstr "Voulez-vous vraiment supprimer les quiz sélectionnés ?"
+
+#: includes/views/quizzes/class-html.php:30
+msgid "Create copies of the selected quizzes?"
+msgstr "Créer des copies des quiz sélectionnés&nbsp;?"
+
+#: includes/views/quizzes/class-html.php:32
+msgid "Select at least one quiz please."
+msgstr "Veuillez sélectionner au moins un quiz."
+
+#: includes/views/quizzes/class-html.php:34
+msgid "Copied"
+msgstr "Copié"
+
+#: includes/views/quizzes/class-html.php:36
+msgid "Press Ctrl+C to copy"
+msgstr "Appuyez sur Ctrl+C pour copier"
+
+#: includes/views/quizzes/tmpl/default.php:44
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: includes/views/quizzes/tmpl/default.php:46
+#: includes/views/quizzes/tmpl/grid-header.php:9
+msgid "Title"
+msgstr "Titre"
+
+#: includes/views/quizzes/tmpl/default.php:48
+msgid "Type"
+msgstr "Type"
+
+#: includes/views/quizzes/tmpl/default.php:50
+#: includes/views/quizzes/tmpl/grid-header.php:10
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/views/quizzes/tmpl/default.php:52
+#: includes/views/quizzes/tmpl/grid-header.php:11
+msgid "Created on"
+msgstr "Créé le"
+
+#: includes/views/quizzes/tmpl/default.php:54
+#: includes/views/quizzes/tmpl/grid-header.php:12
+msgid "Last update"
+msgstr "Dernière mise à jour"
+
+#: includes/views/quizzes/tmpl/default.php:56
+#: includes/views/quizzes/tmpl/grid-header.php:13
+msgid "Shortcode"
+msgstr "Code court"
+
+#: includes/views/quizzes/tmpl/default.php:63
+msgid "Add a trivia quiz"
+msgstr "Ajouter un quiz trivia"
+
+#: includes/views/quizzes/tmpl/default.php:69
+msgid "Search..."
+msgstr "Recherche&hellip;"
+
+#: includes/views/quizzes/tmpl/default.php:74
+#, php-format
+msgid "%d items found."
+msgstr "%d éléments trouvés."
+
+#: includes/views/quizzes/tmpl/default.php:77
+msgid "Search"
+msgstr "Rechercher"
+
+#: includes/views/quizzes/tmpl/default.php:78
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: includes/views/quizzes/tmpl/default.php:133
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/views/quizzes/tmpl/default.php:135
+#: includes/views/quizzes/tmpl/grid-toolbar.php:33
+msgid "Copy"
+msgstr "Copier"
+
+#: includes/views/quizzes/tmpl/default.php:137
+#: includes/views/quizzes/tmpl/grid-toolbar.php:34
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/views/quizzes/tmpl/default.php:145
+msgid "View"
+msgstr "Voir"
+
+#: includes/views/quizzes/tmpl/default.php:167
+msgid "Copy to clipboard"
+msgstr "Copier dans le presse-papiers"
+
+#: includes/views/quizzes/tmpl/default.php:176
+msgid "No quizzes found"
+msgstr "Aucun test trouvé"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:32
+msgid "- Bulk actions -"
+msgstr "- Actions groupées -"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:36
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/views/quizzes/tmpl/grid-toolbar.php:43
+msgid "Go to"
+msgstr "Aller à"
+
+#: includes/views/settings/class-html.php:8
+msgid "ARI Stream Quiz - Settings"
+msgstr "ARI Stream Quiz - Réglages"
+
+#: includes/views/settings/tmpl/default.php:6
+msgid "General"
+msgstr "Général"
+
+#: includes/views/settings/tmpl/default.php:8
+msgid "Advanced"
+msgstr "Avancés"
