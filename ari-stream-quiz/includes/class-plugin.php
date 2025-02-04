@@ -12,8 +12,6 @@ class Plugin extends Ari_Plugin {
     private $new_post_quiz_data = null;
 
     public function init() {
-        $this->load_translations();
-
         add_action(
             'init',
             function () {
@@ -95,6 +93,8 @@ class Plugin extends Ari_Plugin {
     }
 
     private function init_plugin() {
+        $this->load_translations();
+
         $post_type_args = array(
             'description' => '',
 

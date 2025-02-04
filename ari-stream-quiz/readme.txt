@@ -3,8 +3,8 @@ Contributors: arisoft
 Donate link: http://wp-quiz.ari-soft.com/
 Tags: quiz, buzzfeed quiz, trivia quiz, personality test, exam
 Requires at least: 4.0
-Tested up to: 6.5.2
-Stable tag: 1.3.4
+Tested up to: 6.7.1
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -117,6 +117,9 @@ You can use images in questions and answers. Images can also be used in result t
 8. Backend - Quiz report
 
 == Changelog ==
+
+= 1.3.5 =
+* Fix "Translation loading for the ari-stream-quiz domain was triggered too early" error
 
 = 1.3.4 =
 * Fix error on quizzes page
