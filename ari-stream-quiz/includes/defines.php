@@ -1,5 +1,5 @@
 <?php
-define( 'ARISTREAMQUIZ_VERSION', '1.3.5' );
+define( 'ARISTREAMQUIZ_VERSION', '1.3.6' );
 define( 'ARISTREAMQUIZ_SLUG', 'ari-stream-quiz' );
 define( 'ARISTREAMQUIZ_', 'ari-stream-quiz' );
 define( 'ARISTREAMQUIZ_ASSETS_URL', ARISTREAMQUIZ_URL . 'assets/' );

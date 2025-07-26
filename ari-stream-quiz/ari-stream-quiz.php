@@ -3,7 +3,7 @@
 	Plugin Name: ARI Stream Quiz
 	Plugin URI: http://wp-quiz.ari-soft.com
 	Description: Powerful and easy to use quiz plugin for WordPress.
-	Version: 1.3.5
+	Version: 1.3.6
 	Author: ARI Soft
 	Author URI: http://www.ari-soft.com
 	Text Domain: ari-stream-quiz

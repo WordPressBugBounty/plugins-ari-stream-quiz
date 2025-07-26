@@ -199,7 +199,7 @@ class Plugin extends Ari_Plugin {
 
         // Hidden pages
 		add_submenu_page(
-            null,
+            '',
             '',
             '',
             'edit_posts',
@@ -313,6 +313,7 @@ class Plugin extends Ari_Plugin {
     private function admin_init() {
         Settings::init();
 
+        $this->handle_global_title();
         add_filter(
             'admin_title',
             function () {
@@ -349,6 +350,21 @@ class Plugin extends Ari_Plugin {
                     99
                 );
             }
+        }
+    }
+
+    private function handle_global_title() {
+        global $title, $plugin_page;
+
+        if ( !$plugin_page || strpos( $plugin_page, 'ari-stream-quiz' ) !== 0 )
+            return;
+
+        switch ( $plugin_page ) {
+            case 'ari-stream-quiz-quiz':
+            case 'ari-stream-quiz-quiz-statistics':
+            case 'ari-stream-quiz-quiz-result-details':
+                $title = '';
+                break;
         }
     }
 
@@ -492,22 +508,25 @@ class Plugin extends Ari_Plugin {
             }
         }
 
-        if ( strlen( $twitter_description ) == 0 || strlen( $og_description ) == 0 || strlen( $meta_thumb_url ) == 0 ) {
+        if ( ( is_null( $twitter_description) || strlen( $twitter_description ) == 0 ) || 
+             ( is_null( $og_description ) || strlen( $og_description ) == 0 ) || 
+             ( is_null( $meta_thumb_url ) || strlen( $meta_thumb_url ) == 0 )
+         ) {
             $matches = null;
             if ( preg_match( '/\[streamquiz\s+[^]]*id="?([\s\d]+)/s', $post->post_content, $matches ) ) {
                 $quiz_id = intval( trim( $matches[1] ), 10 );
                 if ( $quiz_id > 0 ) {
                     $meta_tags = Helper::get_quiz_meta_tags( $quiz_id );
                     if ( ! empty( $meta_tags ) ) {
-                        if ( strlen( $twitter_description ) == 0 ) {
+                        if ( is_null( $twitter_description ) || strlen( $twitter_description ) == 0 ) {
                             $twitter_description = $meta_tags->quiz_description;
                         }
 
-                        if ( strlen( $og_description ) == 0 ) {
+                        if ( is_null( $og_description ) || strlen( $og_description ) == 0 ) {
                             $og_description = $meta_tags->quiz_description;
                         }
 
-                        if ( strlen( $meta_thumb_url ) == 0 && $meta_tags->quiz_image_id > 0 ) {
+                        if ( ( is_null( $meta_thumb_url) || strlen( $meta_thumb_url ) == 0 ) && $meta_tags->quiz_image_id > 0 ) {
                             $wp_attach_meta = wp_get_attachment_image_src( $meta_tags->quiz_image_id, 'full', true );
                             if ( is_array( $wp_attach_meta ) && count( $wp_attach_meta ) > 0 ) {
                                 $meta_thumb_url = $wp_attach_meta[0];

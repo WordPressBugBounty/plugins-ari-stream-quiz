@@ -15,6 +15,8 @@ class Html extends Site_Base {
 
     public $need_to_load_facebook_sdk;
 
+    public $script_vars;
+
     public function display( $tmpl = null ) {
         $data = $this->get_data();
         if ( is_null( $tmpl ) || 'default' == $tmpl ) {
